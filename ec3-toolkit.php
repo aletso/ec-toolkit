@@ -3,7 +3,7 @@
  * Plugin Name: EC3 Toolkit
  * Plugin URI: https://aletso.com
  * Description: Professional WordPress toolkit for EC3 with Elementor widgets
- * Version: 1.1.2
+ * Version: 1.1.3
  * Author: Aletso
  * Author URI: https://aletso.com
  * License: GPL v2 or later
@@ -14,7 +14,7 @@
  * Requires PHP: 7.4
  * GitHub Plugin URI: https://github.com/aletso/ec3-toolkit
  * Primary Branch: main
- * Release Asset: true
+ * Release Asset: false
  *
  * @package EC3_Toolkit
  */
@@ -25,7 +25,7 @@ if (!defined('ABSPATH')) {
 }
 
 // Define plugin constants
-define('EC3_TOOLKIT_VERSION', '1.1.2');
+define('EC3_TOOLKIT_VERSION', '1.1.3');
 define('EC3_TOOLKIT_PLUGIN_DIR', plugin_dir_path(__FILE__));
 define('EC3_TOOLKIT_PLUGIN_URL', plugin_dir_url(__FILE__));
 define('EC3_TOOLKIT_PLUGIN_BASENAME', plugin_basename(__FILE__));
