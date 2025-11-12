@@ -118,8 +118,10 @@ class EC3_Toolkit_Elementor_Widgets {
     public function register_widgets($widgets_manager) {
         // Include widget files
         require_once EC3_TOOLKIT_PLUGIN_DIR . 'includes/widgets/publication-authors.php';
+        require_once EC3_TOOLKIT_PLUGIN_DIR . 'includes/widgets/publication-pdf.php';
 
         // Register widgets
         $widgets_manager->register(new \EC3_Toolkit_Widget_Publication_Authors());
+        $widgets_manager->register(new \EC3_Toolkit_Widget_Publication_PDF());
     }
 }

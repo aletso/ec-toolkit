@@ -9,7 +9,8 @@ EC3 Toolkit is a production-grade WordPress plugin developed by Aletso that exte
 ## Features
 
 - **Publication Authors Widget**: Display publication authors with numbered institution references
-- **Typography Control**: Full control over author and institution typography through Elementor
+- **Publication PDF Widget**: Embedded PDF viewer with download button
+- **Typography Control**: Full control over styling through Elementor
 - **ACF Integration**: Seamlessly integrates with Advanced Custom Fields
 - **Responsive Design**: Mobile-friendly and print-optimized output
 - **Production-Ready**: Built following WordPress and Elementor best practices
@@ -51,6 +52,27 @@ Displays publication authors with numbered references to their institutions.
 - `author` (Relationship field) - Links to author posts
 - `institution` (Taxonomy) - Author institutions
 
+### Publication PDF
+
+Displays publication PDF in an embedded viewer with optional download button.
+
+**Features:**
+- Embedded PDF viewer with iframe
+- Customizable download button with full styling control
+- Adjustable viewer height (responsive)
+- Button hover states
+- Works with current post or custom post ID
+
+**Usage:**
+1. Add the "Publication PDF" widget to your Elementor page
+2. Configure the source (current post or custom post ID)
+3. Toggle download button visibility and customize text
+4. Adjust PDF viewer height and button styling
+5. Publish your page
+
+**ACF Fields Required:**
+- `pdf` (File or URL field) - PDF file URL
+
 ## File Structure
 
 ```
@@ -60,7 +82,8 @@ ec3-toolkit/
 ├── includes/
 │   ├── class-elementor-widgets.php
 │   └── widgets/
-│       └── publication-authors.php
+│       ├── publication-authors.php
+│       └── publication-pdf.php
 └── languages/                # Translation files (future)
 ```
 
@@ -85,11 +108,16 @@ This plugin follows:
 
 ## Changelog
 
+### 1.1.0
+- Added Publication PDF Elementor widget with embedded viewer
+- Customizable download button with styling controls
+- Responsive PDF viewer height control
+
 ### 1.0.0
 - Initial release
 - Publication Authors Elementor widget
 - ACF integration
-- Typography controls
+- Typography and styling controls
 
 ## Support
 
