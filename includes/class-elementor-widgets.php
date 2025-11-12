@@ -4,7 +4,7 @@
  * Handles Elementor widget registration and initialization
  *
  * @package EC3_Toolkit
- * @since 1.0.0
+ * @since 1.1.6
  */
 
 // Prevent direct access
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 /**
  * Class EC3_Toolkit_Elementor_Widgets
  *
- * @since 1.0.0
+ * @since 1.1.6
  */
 class EC3_Toolkit_Elementor_Widgets {
 

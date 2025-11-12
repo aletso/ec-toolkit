@@ -4,7 +4,7 @@
  * Fired when the plugin is uninstalled
  *
  * @package EC3_Toolkit
- * @since 1.0.0
+ * @since 1.1.6
  */
 
 // If uninstall not called from WordPress, exit

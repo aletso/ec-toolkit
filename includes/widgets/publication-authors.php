@@ -4,7 +4,7 @@
  * Elementor widget for displaying publication authors with institutions
  *
  * @package EC3_Toolkit
- * @since 1.0.0
+ * @since 1.1.6
  */
 
 // Prevent direct access
@@ -15,7 +15,7 @@ if (!defined('ABSPATH')) {
 /**
  * Class EC3_Toolkit_Widget_Publication_Authors
  *
- * @since 1.0.0
+ * @since 1.1.6
  */
 class EC3_Toolkit_Widget_Publication_Authors extends \Elementor\Widget_Base {
 
