@@ -1,0 +1,20 @@
+# WordPress
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Development
+node_modules/
+vendor/
+*.log
+
+# OS
+.DS_Store
+.AppleDouble
+.LSOverride
