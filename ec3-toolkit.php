@@ -14,7 +14,7 @@
  * Requires PHP: 7.4
  * GitHub Plugin URI: https://github.com/aletso/ec3-toolkit
  * Primary Branch: main
- * Release Asset: false
+ * Release Asset: true
  *
  * @package EC3_Toolkit
  */
