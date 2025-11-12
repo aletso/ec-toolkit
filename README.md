@@ -36,6 +36,7 @@ EC3 Toolkit is a production-grade WordPress plugin developed by Aletso that exte
 Displays publication authors with numbered references to their institutions.
 
 **Features:**
+
 - Automatic institution numbering
 - Customizable typography for authors and institutions
 - Adjustable spacing controls
@@ -43,12 +44,14 @@ Displays publication authors with numbered references to their institutions.
 - Works with current post or custom post ID
 
 **Usage:**
+
 1. Add the "Publication Authors" widget to your Elementor page
 2. Configure the source (current post or custom post ID)
 3. Customize typography and spacing in the Style tab
 4. Publish your page
 
 **ACF Fields Required:**
+
 - `author` (Relationship field) - Links to author posts
 - `institution` (Taxonomy) - Author institutions
 
@@ -57,6 +60,7 @@ Displays publication authors with numbered references to their institutions.
 Displays publication PDF in an embedded viewer with optional download button.
 
 **Features:**
+
 - Embedded PDF viewer with iframe
 - Customizable download button with full styling control
 - Adjustable viewer height (responsive)
@@ -64,6 +68,7 @@ Displays publication PDF in an embedded viewer with optional download button.
 - Works with current post or custom post ID
 
 **Usage:**
+
 1. Add the "Publication PDF" widget to your Elementor page
 2. Configure the source (current post or custom post ID)
 3. Toggle download button visibility and customize text
@@ -71,6 +76,7 @@ Displays publication PDF in an embedded viewer with optional download button.
 5. Publish your page
 
 **ACF Fields Required:**
+
 - `pdf` (File or URL field) - PDF file URL
 
 ## File Structure
@@ -92,6 +98,7 @@ ec3-toolkit/
 ### Coding Standards
 
 This plugin follows:
+
 - WordPress Coding Standards
 - Elementor development best practices
 - PHP 7.4+ features
@@ -105,19 +112,6 @@ This plugin follows:
 - Capability checks
 - Prevention of direct file access
 - Singleton pattern for main class
-
-## Changelog
-
-### 1.1.0
-- Added Publication PDF Elementor widget with embedded viewer
-- Customizable download button with styling controls
-- Responsive PDF viewer height control
-
-### 1.0.0
-- Initial release
-- Publication Authors Elementor widget
-- ACF integration
-- Typography and styling controls
 
 ## Support
 
